@@ -17,8 +17,7 @@ let map = {
 let packages = {
   'app':                        { main: 'script/main.js',  defaultExtension: 'js' },
   'rxjs':                       { defaultExtension: 'js' },
-  'components':                 { main: 'index', defaultExtension: 'js' },
-  'shared':                     { main: 'index', defaultExtension: 'js' }
+  'components':                 { main: 'index', defaultExtension: 'js' }
 };
 let ngPackageNames = [
   'common',

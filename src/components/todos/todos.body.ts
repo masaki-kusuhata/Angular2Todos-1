@@ -1,5 +1,7 @@
 import {Component, OnInit} from '@angular/core';
-import {TodoStore, Todo} from '../../shared';
+
+import {TodoStore} from './shared/todo.store';
+import {Todo} from './shared/todo';
 
 @Component({
   selector: 'todos-body',
