@@ -1,0 +1,49 @@
+{
+  "name": "angular2-todos",
+  "version": "1.0.0",
+  "description": "Angular2 RC5 Todos",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\"",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lite": "lite-server -c bs-config.json",
+    "postinstall": "typings install -AS core-js jasmine node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albatrosary/angular2-lite-start.git"
+  },
+  "keywords": [
+    "angular2",
+    "typescript"
+  ],
+  "author": "Fumio SAGAWA",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/albatrosary/angular2-lite-start/issues"
+  },
+  "homepage": "https://github.com/albatrosary/angular2-lite-start#readme",
+  "dependencies": {
+    "@angular/common": "angular/common-builds",
+    "@angular/compiler": "angular/compiler-builds",
+    "@angular/core": "angular/core-builds",
+    "@angular/forms": "angular/forms-builds",
+    "@angular/http": "angular/http-builds",
+    "@angular/platform-browser": "angular/platform-browser-builds",
+    "@angular/platform-browser-dynamic": "angular/platform-browser-dynamic-builds",
+    "@angular/router": "angular/router-builds",
+    "systemjs": "0.19.31",
+    "core-js": "^2.4.0",
+    "reflect-metadata": "^0.1.3",
+    "rxjs": "5.0.0-beta.6",
+    "zone.js": "^0.6.12"
+  },
+  "devDependencies": {
+    "concurrently": "^2.0.0",
+    "lite-server": "^2.2.0",
+    "typescript": "^1.8.10",
+    "typings": "^0.8.1",
+    "watchify": "^3.7.0"
+  }
+}
